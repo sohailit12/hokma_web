@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment / Job Application Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4 bg-success text-white">EMPLOYMENT / JOB APPLICATION</h2>
+
+        <!-- Personal secondaryrmation Section -->
+        <div class=" p-3 mb-4 ">
+            <h4 class="mb-3 text-center p-3 bg-secondary">PERSONAL INFORMATION</h4>
+            <div class="col-sm-12 text-end ">
+                <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#firstModal">Al-Ready</button>
+            </div>
+            <form>
+                <div class="row mb-3 ">
+                    <div class="col-sm-4 mb-1 ">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="col-sm-4 mb-1">
+                        <label for="middleName" class="form-label">Middle Name</label>
+                        <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                    </div>
+                    <div class="col-sm-4 mb-1">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="col-sm-4 mb-1">
+                        <label for="lastName" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" placeholder="date">
+                    </div>
+                   
+                </div>
+               
+            </div>
+                <div class="col-sm-4 mb-1">
+                    <div class="col-md-12">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Street Address">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" class="form-control" id="state" placeholder="State">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Zip Code</label>
+                        <input type="text" class="form-control" id="zip" placeholder="Zip Code">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Phone">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="ssn" class="form-label">Social Security Number (SSN)</label>
+                        <input type="text" class="form-control" id="ssn" placeholder="SSN">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="dateAvailable" class="form-label">Date Available</label>
+                        <input type="date" class="form-control" id="dateAvailable">
+                    </div>
+                </div>
+
+                <div class="row mb-3 align-items-center">
+                    <!-- Position Applied For -->
+                    <div class="col-md-6">
+                        <label for="position" class="form-label">Position Applied For</label>
+                        <input type="text" class="form-control" id="position" placeholder="Position">
+                    </div>
+                    
+                    <!-- Desired Pay and Radio Buttons in the Same Line -->
+                    <div class="col-md-4">
+                        <label for="desiredPay" class="form-label">Desired Pay</label>
+                        <input type="text" class="form-control" id="desiredPay" placeholder="Desired Pay">
+                    </div>
+                    
+                    <div class="col-md-2">
+                        <!-- Radio buttons inline with Desired Pay -->
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="payType" id="hourly" value="hourly">
+                            <label class="form-check-label" for="hourly">Hour</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="payType" id="salary" value="salary">
+                            <label class="form-check-label" for="salary">Salary</label>
+                        </div>
+                    </div>
+                </div>
+                
+              
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-2">
+                        <label class="form-label">Employment Desired</label>
+                    </div>
+                    
+                    <!-- Full-Time Checkbox -->
+                    <div class="col-md-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="fullTime" value="full-time">
+                            <label class="form-check-label" for="fullTime">Full-Time</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Part-Time Checkbox -->
+                    <div class="col-md-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="partTime" value="part-time">
+                            <label class="form-check-label" for="partTime">Part-Time</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Seasonal Checkbox -->
+                    <div class="col-md-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="seasonal" value="seasonal">
+                            <label class="form-check-label" for="seasonal">Seasonal</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class=" p-3 mb-4">
+                <h4 class="mb-3 text-center p-3 bg-secondary">EMPLOYMENT ELIGIBILITY</h4>
+            
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-4">
+                        <label class="form-label">Are you legally eligible to work in the U.S.?</label>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="eligibility" id="yesEligible" value="yes">
+                            <label class="form-check-label" for="yesEligible">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="eligibility" id="noEligible" value="no">
+                            <label class="form-check-label" for="noEligible">No</label>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-4">
+                        <label class="form-label">Have you ever worked for this employer?</label>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="workedBefore" id="yesWorked" value="yes">
+                            <label class="form-check-label" for="yesWorked">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="workedBefore" id="noWorked" value="no">
+                            <label class="form-check-label" for="noWorked">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-4">
+                        <label class="form-label">*If Yes, write the start and end Dates:</label>
+                    </div>
+                 
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="middleName">
+                        </div>
+                 
+                </div>
+            
+                <div class="row mb-3 align-items-center">
+                    <div class="col-md-4">
+                        <label class="form-label">Have you ever been convicted of a felony?</label>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="felony" id="yesFelony" value="yes">
+                            <label class="form-check-label" for="yesFelony">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="felony" id="noFelony" value="no">
+                            <label class="form-check-label" for="noFelony">No</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-4">
+                            <label class="form-label">*If Yes, write the start and end Dates:</label>
+                        </div>
+                     
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="middleName">
+                            </div>
+                     
+                    </div>
+                </div>
+            </div>
+            
+               
+
+                <!-- Education Section -->
+                <div class=" p-3 mb-4">
+                    <h4 class="mb-3 text-center p-3 bg-secondary">EDUCATION</h4>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="highSchool" class="form-label">High School</label>
+                            <input type="text" class="form-control" id="highSchool" placeholder="High School">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="cityStateHS" class="form-label">City / State</label>
+                            <input type="text" class="form-control" id="cityStateHS" placeholder="City / State">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="fromHS" class="form-label">From</label>
+                            <input type="date" class="form-control" id="fromHS">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="toHS" class="form-label">To</label>
+                            <input type="date" class="form-control" id="toHS">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3 align-items-center">
+                        <!-- Graduate label -->
+                        <div class="col-md-3">
+                            <label class="form-label">Graduate?</label>
+                        </div>
+                    
+                        <!-- Yes and No Radio Buttons -->
+                        <div class="col-md-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="graduateHS" id="yesGraduateHS" value="yes">
+                                <label class="form-check-label" for="yesGraduateHS">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="graduateHS" id="noGraduateHS" value="no">
+                                <label class="form-check-label" for="noGraduateHS">No</label>
+                            </div>
+                        </div>
+                    
+                        <!-- Diploma Input -->
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="diplomaHS" placeholder="Diploma">
+                        </div>
+                    </div>
+                    
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="college" class="form-label">College</label>
+                            <input type="text" class="form-control" id="college" placeholder="College">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="cityStateCollege" class="form-label">City / State</label>
+                            <input type="text" class="form-control" id="cityStateCollege" placeholder="City / State">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="from1" class="form-label">FROM:</label>
+                        <input type="text" class="form-control" id="from1" placeholder="From">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="to1" class="form-label">TO:</label>
+                        <input type="text" class="form-control" id="to1" placeholder="To">
+                    </div>
+                </div>
+            
+                <!-- Second Row: DEGREE/CERTIFICATION -->
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="degree1" class="form-label">DEGREE/CERTIFICATION:</label>
+                        <input type="text" class="form-control" id="degree1" placeholder="Degree/Certification">
+                    </div>
+                </div>
+            
+                <!-- Third Row: OTHER and CITY/STATE -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="other1" class="form-label">OTHER:</label>
+                        <input type="text" class="form-control" id="other1" placeholder="Other">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cityState1" class="form-label">CITY / STATE:</label>
+                        <input type="text" class="form-control" id="cityState1" placeholder="City / State">
+                    </div>
+                </div>
+            
+                <!-- Fourth Row: FROM and TO -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="from2" class="form-label">FROM:</label>
+                        <input type="text" class="form-control" id="from2" placeholder="From">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="to2" class="form-label">TO:</label>
+                        <input type="text" class="form-control" id="to2" placeholder="To">
+                    </div>
+                </div>
+            
+                <!-- Fifth Row: DEGREE/CERTIFICATION -->
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="degree2" class="form-label">DEGREE/CERTIFICATION:</label>
+                        <input type="text" class="form-control" id="degree2" placeholder="Degree/Certification">
+                    </div>
+                </div>
+                </div>
+
+                </div>
+                <div class="container">
+                    <!-- Previous Employment Section -->
+                    <h4 class="text-center border-bottom mb-3 p-3 bg-secondary">PREVIOUS EMPLOYMENT</h4>
+                
+                    <!-- Employer 1 -->
+                    <div class=" p-3 mb-4">
+                        <h5>EMPLOYER 1:</h5>
+                
+                        <!-- Company / Individual -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Company / Individual">
+                            </div>
+                        </div>
+                
+                        <!-- E-Mail and Phone -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">E-MAIL:</label>
+                                <input type="email" class="form-control" id="email1" placeholder="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone1" class="form-label">PHONE:</label>
+                                <input type="text" class="form-control" id="phone1" placeholder="Phone">
+                            </div>
+                        </div>
+                
+                        <!-- Address -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Street Address">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="State">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Apt/Suite">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Zip Code">
+                            </div>
+                        </div>
+                
+                        <!-- Pay Details -->
+                        <div class="row mb-2">
+                            <div class="col-md-3">
+                                <label for="startingPay1" class="form-label">STARTING PAY:</label>
+                                <input type="text" class="form-control" id="startingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourly1" value="hour">
+                                    <label class="form-check-label" for="hourly1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salary1" value="salary">
+                                    <label class="form-check-label" for="salary1">Salary</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="endingPay1" class="form-label">ENDING PAY:</label>
+                                <input type="text" class="form-control" id="endingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourlyEnd1" value="hour">
+                                    <label class="form-check-label" for="hourlyEnd1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salaryEnd1" value="salary">
+                                    <label class="form-check-label" for="salaryEnd1">Salary</label>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Job Title and Responsibilities -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="jobTitle1" class="form-label">JOB TITLE:</label>
+                                <input type="text" class="form-control" id="jobTitle1" placeholder="Job Title">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="responsibilities1" class="form-label">RESPONSIBILITIES:</label>
+                                <input type="text" class="form-control" id="responsibilities1" placeholder="Responsibilities">
+                            </div>
+                        </div>
+                
+                        <!-- Dates Worked -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">FROM:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="From">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">TO:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="To">
+                            </div>
+                        </div>
+                
+                        <!-- Reason for Leaving -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <label for="reason1" class="form-label">REASON FOR LEAVING:</label>
+                                <input type="text" class="form-control" id="reason1" placeholder="Reason for Leaving">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" p-3 mb-4">
+                        <h5>EMPLOYER 2:</h5>
+                
+                        <!-- Company / Individual -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Company / Individual">
+                            </div>
+                        </div>
+                
+                        <!-- E-Mail and Phone -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">E-MAIL:</label>
+                                <input type="email" class="form-control" id="email1" placeholder="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone1" class="form-label">PHONE:</label>
+                                <input type="text" class="form-control" id="phone1" placeholder="Phone">
+                            </div>
+                        </div>
+                
+                        <!-- Address -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Street Address">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="State">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Apt/Suite">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Zip Code">
+                            </div>
+                        </div>
+                
+                        <!-- Pay Details -->
+                        <div class="row mb-2">
+                            <div class="col-md-3">
+                                <label for="startingPay1" class="form-label">STARTING PAY:</label>
+                                <input type="text" class="form-control" id="startingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourly1" value="hour">
+                                    <label class="form-check-label" for="hourly1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salary1" value="salary">
+                                    <label class="form-check-label" for="salary1">Salary</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="endingPay1" class="form-label">ENDING PAY:</label>
+                                <input type="text" class="form-control" id="endingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourlyEnd1" value="hour">
+                                    <label class="form-check-label" for="hourlyEnd1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salaryEnd1" value="salary">
+                                    <label class="form-check-label" for="salaryEnd1">Salary</label>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Job Title and Responsibilities -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="jobTitle1" class="form-label">JOB TITLE:</label>
+                                <input type="text" class="form-control" id="jobTitle1" placeholder="Job Title">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="responsibilities1" class="form-label">RESPONSIBILITIES:</label>
+                                <input type="text" class="form-control" id="responsibilities1" placeholder="Responsibilities">
+                            </div>
+                        </div>
+                
+                        <!-- Dates Worked -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">FROM:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="From">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">TO:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="To">
+                            </div>
+                        </div>
+                
+                        <!-- Reason for Leaving -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <label for="reason1" class="form-label">REASON FOR LEAVING:</label>
+                                <input type="text" class="form-control" id="reason1" placeholder="Reason for Leaving">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" p-3 mb-4">
+                        <h5>EMPLOYER 3:</h5>
+                
+                        <!-- Company / Individual -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" placeholder="Company / Individual">
+                            </div>
+                        </div>
+                
+                        <!-- E-Mail and Phone -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">E-MAIL:</label>
+                                <input type="email" class="form-control" id="email1" placeholder="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone1" class="form-label">PHONE:</label>
+                                <input type="text" class="form-control" id="phone1" placeholder="Phone">
+                            </div>
+                        </div>
+                
+                        <!-- Address -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Street Address">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="State">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Apt/Suite">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Zip Code">
+                            </div>
+                        </div>
+                
+                        <!-- Pay Details -->
+                        <div class="row mb-2">
+                            <div class="col-md-3">
+                                <label for="startingPay1" class="form-label">STARTING PAY:</label>
+                                <input type="text" class="form-control" id="startingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourly1" value="hour">
+                                    <label class="form-check-label" for="hourly1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salary1" value="salary">
+                                    <label class="form-check-label" for="salary1">Salary</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="endingPay1" class="form-label">ENDING PAY:</label>
+                                <input type="text" class="form-control" id="endingPay1" placeholder="$">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="hourlyEnd1" value="hour">
+                                    <label class="form-check-label" for="hourlyEnd1">Hour</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="salaryEnd1" value="salary">
+                                    <label class="form-check-label" for="salaryEnd1">Salary</label>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Job Title and Responsibilities -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="jobTitle1" class="form-label">JOB TITLE:</label>
+                                <input type="text" class="form-control" id="jobTitle1" placeholder="Job Title">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="responsibilities1" class="form-label">RESPONSIBILITIES:</label>
+                                <input type="text" class="form-control" id="responsibilities1" placeholder="Responsibilities">
+                            </div>
+                        </div>
+                
+                        <!-- Dates Worked -->
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">FROM:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="From">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">TO:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="To">
+                            </div>
+                        </div>
+                
+                        <!-- Reason for Leaving -->
+                        <div class="row mb-2">
+                            <div class="col-md-12">
+                                <label for="reason1" class="form-label">REASON FOR LEAVING:</label>
+                                <input type="text" class="form-control" id="reason1" placeholder="Reason for Leaving">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class=" p-3 mb-4">
+                        <h4 class="mb-3 text-center">REFERENCE <br> (PROFESSIONAL ONLY)</h4>
+                       
+                           
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">Full Name:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Relationship:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">Company:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Title:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">E-Mail:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Phone:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">Company:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Title:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">E-Mail:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Phone:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">Company:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Title:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="fromDate1" class="form-label">E-Mail:</label>
+                                <input type="text" class="form-control" id="fromDate1" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toDate1" class="form-label">Phone:</label>
+                                <input type="text" class="form-control" id="toDate1" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" p-3 mb-4">
+                        <h4 class="mb-3 text-center">MILITARY SERVICE</h4>
+                    
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-md-4">
+                                <label class="form-label">Are You A Veteran ? </label>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="eligibility" id="yesEligible" value="yes">
+                                    <label class="form-check-label" for="yesEligible">Yes</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="eligibility" id="noEligible" value="no">
+                                    <label class="form-check-label" for="noEligible">No</label>
+                                </div>
+                            </div>
+                        </div>
+                          
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">Branch:</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="middleName" class="form-label">Rank At Discharge:</label>
+                                <input type="text" class="form-control" id="middleName" placeholder="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">From:</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="middleName" class="form-label">To:</label>
+                                <input type="text" class="form-control" id="middleName" placeholder="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="firstName" class="form-label">Type Of Discharge:</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="firstName" class="form-label">If Not Honorable, Please Explain:</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="">
+                            </div>
+                        </div>
+<br>
+                        <div class=" p-3 mb-4">
+                            <h4 class="mb-3 text-center">BACKGROUND CHECK CONSENT</h4>
+                        
+                            <div class="row mb-3 align-items-center">
+                                <div class="col-md-8">
+                                    <label class="form-label">IF ASKED, ARE YOU WILLING TO CONSENT TO A BACKGROUND CHECK?</label>
+                               
+                                
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="graduateHS" id="yesGraduateHS" value="yes">
+                                <label class="form-check-label" for="yesGraduateHS">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="graduateHS" id="noGraduateHS" value="no">
+                                <label class="form-check-label" for="noGraduateHS">No</label>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class=" p-3 mb-4">
+                            <h4 class="mb-3 text-center">DISCLAIMER</h4>
+                        
+                            <div class="row mb-3 align-items-center">
+                                <div class="col-md-12">
+                                    <label class="form-label text-center">Applicant understands that this is an Equal Opportunity Employer and committed to excellence 
+                                        through diversity. In order to ensure this application is acceptable, please print or type with the 
+                                        application being fully completed in order for it to be considered. 
+                                        Please complete each section EVEN IF you decide to attach a resume.
+                                        I, the Applicant, certify that my answers are true and honest to the best of my knowledge. If this 
+                                        application leads to my eventual employment, I understand that any false or misleading 
+                                        secondaryrmation in my application or interview may result in my employment being terminated.</label>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">Signature:</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="middleName" class="form-label">Date:</label>
+                                    <input type="text" class="form-control" id="middleName" placeholder="">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="middleName" class="form-label">Print Name:</label>
+                                    <input type="text" class="form-control" id="middleName" placeholder="">
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                        
+                       
+                        
+            </form><br>
+            <div class="d-flex justify-content-end">
+                <button type="button" class="btn btn-sm btn-success me-2">Save</button>
+                <button type="button" class="btn btn-sm btn-secondary">Cancel</button>
+            </div>
+            
+    </div>
+        </div>
+    </div>
+
+
+
+<!-- for modaling start code  -->
+
+    <div class="modal fade" id="firstModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">School List Data</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-center text-danger">School List Data</h3>
+                    <table class="table table-bordered table-striped mt-3">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>EMIS Code</th>
+                            <th>Name of School</th>
+                            <th>Head Mobile No</th>
+                            <th>Town</th>
+                            <th>Tehsil</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>35210460</td>
+                            <td>Govt. GPS, Qurban Line, Lahore.</td>
+                            <td>0321-4233655</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210471</td>
+                            <td>Govt. GMS, Dhallah Kot Lakhpat, Lahore.</td>
+                            <td>0300-9418152</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210474</td>
+                            <td>Govt. Apwa GMS, Model Town, Lahore.</td>
+                            <td>0334-4287398</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210465</td>
+                            <td>Govt. GPS, Pindi Raj Putan, Lahore.</td>
+                            <td>0333-4516999</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210462</td>
+                            <td>Govt. Mumtaz GPS, Shora Kothi, Lhr.</td>
+                            <td>0323-4172735</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210469</td>
+                            <td>Govt. GPS, Mochi Pura, Lahore.</td>
+                            <td>0331-4431185</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210479</td>
+                            <td>Govt. FCC GPS, Shibli Road, Lahore.</td>
+                            <td>0300-4194985</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210461</td>
+                            <td>Govt. Apwa GPS, Canal Bank, Lahore.</td>
+                            <td>0344-4428238</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210478</td>
+                            <td>Govt. S.A Model GPS, Bhabhra, Lahore.</td>
+                            <td>0346-4451962</td>
+                            <td>Gulberg</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210155</td>
+                            <td>Govt. Malik GMS, Ghari Shahu, Lahore.</td>
+                            <td>0323-8405050</td>
+                            <td>Gulberg</td>
+                            <td>Shalimar</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210167</td>
+                            <td>Govt. Abu-ul-Khair GMS, Ghari Shahu,Lhr.</td>
+                            <td>0321-4789730</td>
+                            <td>Gulberg</td>
+                            <td>Shalimar</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35211001</td>
+                            <td>Govt. Mohsin GMS, Ghari Shahu, Lahore.</td>
+                            <td>0301-4165747</td>
+                            <td>Gulberg</td>
+                            <td>Shalimar</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210610</td>
+                            <td>Govt. New Islamia GPS, Ghari Shahu,Lhr.</td>
+                            <td>0321-4307212</td>
+                            <td>Gulberg</td>
+                            <td>Shalimar</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210573</td>
+                            <td>Govt. JM Middle School Samanabad</td>
+                            <td>0302-4671590</td>
+                            <td>Samanabad</td>
+                            <td>City</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35220380</td>
+                            <td>Govt GMS Nonarian</td>
+                            <td>0300-4164676</td>
+                            <td>Samanabad</td>
+                            <td>City</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210549</td>
+                            <td>Govt Khwateen GPS</td>
+                            <td>0341-4119261</td>
+                            <td>Samanabad</td>
+                            <td>City</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210840</td>
+                            <td>Govt GMS Choudary Colony</td>
+                            <td>0321-4758669</td>
+                            <td>Samanabad</td>
+                            <td>Model Town</td>
+                            <td>Middle</td>
+                        </tr>
+                        <tr>
+                            <td>35210579</td>
+                            <td>Govt Central Model Middle School CGE Colony</td>
+                            <td>0343-4119621</td>
+                            <td>Samanabad</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                        <tr>
+                            <td>35210551</td>
+                            <td>Govt Pakiza Gondal Primary School</td>
+                            <td>0333-4646972</td>
+                            <td>Samanabad</td>
+                            <td>Model Town</td>
+                            <td>Primary</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- for modaling end code  -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
