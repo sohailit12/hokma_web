@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employment / Job Application Form</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HOKMA IT CENTER</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
+        <a href="./index.html" ><button class="bg-danger text-white m-2 border border-0 ">Cancel</button></a>
         <h2 class="text-center mb-4 bg-success text-white">EMPLOYMENT / JOB APPLICATION</h2>
 
         <!-- Personal secondaryrmation Section -->
         <div class=" p-3 mb-4 ">
             <h4 class="mb-3 text-center p-3 bg-secondary">PERSONAL INFORMATION</h4>
-            <div class="col-sm-12 text-end ">
-                <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#firstModal">Al-Ready</button>
-            </div>
+            
             <form>
                 <div class="row mb-3 ">
                     <div class="col-sm-4 mb-1 ">
@@ -139,193 +146,7 @@
                     </div>
                 </div>
             </div>
-                
-            <div class=" p-3 mb-4">
-                <h4 class="mb-3 text-center p-3 bg-secondary">EMPLOYMENT ELIGIBILITY</h4>
             
-                <div class="row mb-3 align-items-center">
-                    <div class="col-md-4">
-                        <label class="form-label">Are you legally eligible to work in the U.S.?</label>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="eligibility" id="yesEligible" value="yes">
-                            <label class="form-check-label" for="yesEligible">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="eligibility" id="noEligible" value="no">
-                            <label class="form-check-label" for="noEligible">No</label>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="row mb-3 align-items-center">
-                    <div class="col-md-4">
-                        <label class="form-label">Have you ever worked for this employer?</label>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="workedBefore" id="yesWorked" value="yes">
-                            <label class="form-check-label" for="yesWorked">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="workedBefore" id="noWorked" value="no">
-                            <label class="form-check-label" for="noWorked">No</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-3 align-items-center">
-                    <div class="col-md-4">
-                        <label class="form-label">*If Yes, write the start and end Dates:</label>
-                    </div>
-                 
-                        <div class="col-md-8">
-                            <input type="text" class="form-control" id="middleName">
-                        </div>
-                 
-                </div>
-            
-                <div class="row mb-3 align-items-center">
-                    <div class="col-md-4">
-                        <label class="form-label">Have you ever been convicted of a felony?</label>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="felony" id="yesFelony" value="yes">
-                            <label class="form-check-label" for="yesFelony">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="felony" id="noFelony" value="no">
-                            <label class="form-check-label" for="noFelony">No</label>
-                        </div>
-                    </div>
-                    <div class="row mb-3 align-items-center">
-                        <div class="col-md-4">
-                            <label class="form-label">*If Yes, write the start and end Dates:</label>
-                        </div>
-                     
-                            <div class="col-md-8">
-                                <input type="text" class="form-control" id="middleName">
-                            </div>
-                     
-                    </div>
-                </div>
-            </div>
-            
-               
-
-                <!-- Education Section -->
-                <div class=" p-3 mb-4">
-                    <h4 class="mb-3 text-center p-3 bg-secondary">EDUCATION</h4>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="highSchool" class="form-label">High School</label>
-                            <input type="text" class="form-control" id="highSchool" placeholder="High School">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="cityStateHS" class="form-label">City / State</label>
-                            <input type="text" class="form-control" id="cityStateHS" placeholder="City / State">
-                        </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="fromHS" class="form-label">From</label>
-                            <input type="date" class="form-control" id="fromHS">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="toHS" class="form-label">To</label>
-                            <input type="date" class="form-control" id="toHS">
-                        </div>
-                    </div>
-
-                    <div class="row mb-3 align-items-center">
-                        <!-- Graduate label -->
-                        <div class="col-md-3">
-                            <label class="form-label">Graduate?</label>
-                        </div>
-                    
-                        <!-- Yes and No Radio Buttons -->
-                        <div class="col-md-3">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="graduateHS" id="yesGraduateHS" value="yes">
-                                <label class="form-check-label" for="yesGraduateHS">Yes</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="graduateHS" id="noGraduateHS" value="no">
-                                <label class="form-check-label" for="noGraduateHS">No</label>
-                            </div>
-                        </div>
-                    
-                        <!-- Diploma Input -->
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="diplomaHS" placeholder="Diploma">
-                        </div>
-                    </div>
-                    
-
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="college" class="form-label">College</label>
-                            <input type="text" class="form-control" id="college" placeholder="College">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="cityStateCollege" class="form-label">City / State</label>
-                            <input type="text" class="form-control" id="cityStateCollege" placeholder="City / State">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="from1" class="form-label">FROM:</label>
-                        <input type="text" class="form-control" id="from1" placeholder="From">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="to1" class="form-label">TO:</label>
-                        <input type="text" class="form-control" id="to1" placeholder="To">
-                    </div>
-                </div>
-            
-                <!-- Second Row: DEGREE/CERTIFICATION -->
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <label for="degree1" class="form-label">DEGREE/CERTIFICATION:</label>
-                        <input type="text" class="form-control" id="degree1" placeholder="Degree/Certification">
-                    </div>
-                </div>
-            
-                <!-- Third Row: OTHER and CITY/STATE -->
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="other1" class="form-label">OTHER:</label>
-                        <input type="text" class="form-control" id="other1" placeholder="Other">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="cityState1" class="form-label">CITY / STATE:</label>
-                        <input type="text" class="form-control" id="cityState1" placeholder="City / State">
-                    </div>
-                </div>
-            
-                <!-- Fourth Row: FROM and TO -->
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="from2" class="form-label">FROM:</label>
-                        <input type="text" class="form-control" id="from2" placeholder="From">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="to2" class="form-label">TO:</label>
-                        <input type="text" class="form-control" id="to2" placeholder="To">
-                    </div>
-                </div>
-            
-                <!-- Fifth Row: DEGREE/CERTIFICATION -->
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <label for="degree2" class="form-label">DEGREE/CERTIFICATION:</label>
-                        <input type="text" class="form-control" id="degree2" placeholder="Degree/Certification">
-                    </div>
-                </div>
-                </div>
-
                 </div>
                 <div class="container">
                     <!-- Previous Employment Section -->
