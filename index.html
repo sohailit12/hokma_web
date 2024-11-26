@@ -151,9 +151,48 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
-      </div><!-- End Section Title -->
+<!-- About Us Modal -->
+<div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="aboutUsModalLabel">Send your Infor..</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Welcome to our computer center! We are dedicated to providing excellent services to meet your technical needs. 
+          Whether you're looking for support, repairs, or custom solutions, our team is here to assist you.
+        </p>
 
+        <!-- Form Section -->
+        <form id="aboutUsForm" action="process_form.php" method="POST">
+          <div class="mb-3">
+            <label for="userName" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="userName" name="userName" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="userEmail" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="userEmail" name="userEmail" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="userMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="userMessage" name="userMessage" rows="3" placeholder="Write your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Trigger Button for the Modal -->
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aboutUsModal">
+Contact Us!
+</button>
+<h1>About us</h1>
+      </div><!-- End Section Title -->
+                             
       <div class="container">
         <p>
           <h4>At HOKMA Computer Center, we provide specialized computer education and services to help you master IT skills and advance your career. 
